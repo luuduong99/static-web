@@ -12,9 +12,15 @@ header {
     text-align: center;
     background: #1abc9c;
     color: white;
-    height: 120px;
+    height: 75px;
 }
-
+footer{
+    padding: 5px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    height: 100px;
+}
 
 /* Tăng kích thước font chữ cho header */
 
@@ -28,17 +34,43 @@ h3 {
     color: white;
 }
 
+body {
+    background: #f0f0f0;
+}
 section {
     padding: 20px;
 }
-
+h5{
+    font-size: 16px;
+    color: red;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    color: black;
     overflow: hidden;
     border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
+    background-color:yellow;
+}
+.banchay{
+    
+    list-style-type: none;
+    color: red;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #e7e7e7;
+    background-color: #1abc9c;
+}
+.Danhchoban{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: red;
+    border: 1px solid #e7e7e7;
+    background-color:#1abc9c;
 }
 
 li {
@@ -98,4 +130,30 @@ li.dropdown {
 
 .hideable-section:first-of-type {
     display: block;
+}
+#DangNhap{
+    text-align: center;
+    float: right;
+    padding: 10px 0px 0px 15px;
+    margin-right: 20px;
+}
+#ndangnhap{
+    background-color:blue;
+    border-radius: 3px;
+    color: #e7e7e7;
+}
+#dangki{
+    background-color:blue;
+    border-radius: 3px;
+    color: #e7e7e7;
+}
+.row{
+    width: auto;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 385px 385px 385px 385px;
+}
+.item img{
+    width: 300px;
+    height: auto;
 }
