@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>BTL_Web</title>
     <link rel="StyleSheet" href="./css/style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -12,47 +12,254 @@
 
 <body>
     <header>
-        <h1>MySite</h1>
-        <h3>Slogan go here...</h3>
+        <h1>DA Shop</h1>
+        <h3>Gia Re, Uy Tin, Chat Luong</h3> 
     </header>
     <nav>
         <ul>
-            <li><a data-section="home">Home</a></li>
-            <li><a data-section="services">Services</a></li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Products</a>
-                <div class="dropdown-content">
-                    <a data-section="link1">Link 1</a>
-                    <a data-section="link2">Link 2</a>
-                    <a data-section="link3">Link 3</a>
-                </div>
-            </li>
-            <li style="float:right"><a data-section="about">About us</a></li>
+            <li><a data-section="trangchu">Trang Chu</a></li>
+            <li><a data-section="dienthoai">Dien Thoai</a></li>
+            <li><a data-section="maytinh">May Tinh</a></li>
+            <li><a data-section="dogiadung">Do Gia Dung</a></li>
+            <form id="DangNhap" action="/action_page.php">
+                <label for="fname">Ten Dang Nhap:</label>
+                <input type="text" id="fname" name="fname" >
+                <label for="lname">Mat Khau:</label>
+                <input type="text" id="lname" name="lname" >
+                <input type="submit" id="ndangnhap" value="Dang Nhap">
+                <input type="submit" id="dangki" value="Dang Ki">
+            </form> 
         </ul>
     </nav>
 
-    <section id="home" class="hideable-section">
-        <div>Home content</div>
+    <section id="trangchu" class="hideable-section">
+        <div class="banchay">Hang Ban Chay</div>
+        <div class="row">
+            <div class="item">
+                <img src="images/anh1.jpg" >
+                <h5>OnePlus Nord N10 5G </h5>
+                <h5>7.900.500d</h5>
+                <h5>Qua 500.000d</h5>
+            </div>
+            <div class="item">
+                <img src="images/anh2.jpg" >
+                <h5>Iphone 12 128GB </h5>
+                <h5>25.900.900d</h5>
+                <h5>Giam them 1.000.000d</h5>
+            </div>
+             <div class="item">
+                <img src="images/anh3.jpg" >
+                <h5>SamSung Galaxy Note 10+ </h5>
+                <h5>16.000.000</h5>
+                <h5>Qua 500.000d</h5>
+            </div>
+             <div class="item">
+                <img src="images/anh4.jpg" >
+                <h5>Realme C15 </h5>
+                <h5>5.000.000d</h5>
+                <h5>Qua 500.000d</h5>
+            </div>
+        </div>
+        <div class="Danhchoban">Danh Cho Ban</div>
+        <div class="row">
+            <div class="item">
+                <img src="images/anh5.jpg" >
+                <h5>Ao khoac jean nam in hinh cun de thuong </h5>
+                <h5>200.000d</h5>
+                <h5>Qua 50.000d</h5>
+            </div>
+            <div class="item">
+                <img src="images/anh6.png" >
+                <h5>Ao thun nam co tim </h5>
+                <h5>150.000d</h5>
+                <h5>Giam them 25.000d</h5>
+            </div>
+             <div class="item">
+                <img src="images/anh7.jpeg" >
+                <h5>Tai nghe Inpot i12 </h5>
+                <h5>300.000d</h5>
+                <h5>Qua 10.000d</h5>
+            </div>
+             <div class="item">
+                <img src="images/anh8.png" >
+                <h5>Giay the thao nam </h5>
+                <h5>1.000.000</h5>
+                <h5>Qua 200.000d</h5>
+            </div>
+        </div>
     </section>
 
-    <section id="services" class="hideable-section">
-        <div>Services content</div>
+    <section id="dienthoai" class="hideable-section">
+        <div class="banchay">Luot Mua Nhieu Nhat</div>
+        <div class="row">
+            <div class="item">
+                <img src="images/anh1.jpg" >
+                <h5>OnePlus Nord N10 5G </h5>
+                <h5>7.900.500d</h5>
+                <h5>Qua 500.000d</h5>
+            </div>
+            <div class="item">
+                <img src="images/anh2.jpg" >
+                <h5>Iphone 12 128GB </h5>
+                <h5>25.900.900d</h5>
+                <h5>Giam them 1.000.000d</h5>
+            </div>
+             <div class="item">
+                <img src="images/anh3.jpg" >
+                <h5>SamSung Galaxy Note 10+ </h5>
+                <h5>16.000.000</h5>
+                <h5>Qua 500.000d</h5>
+            </div>
+             <div class="item">
+                <img src="images/anh4.jpg" >
+                <h5>Realme C15 </h5>
+                <h5>5.000.000d</h5>
+                <h5>Qua 500.000d</h5>
+            </div>
+        </div>
+        <div class="banchay">Co the ban quan tam</div>
+        <div class="row">
+            <div class="item">
+                <img src="images/anh9.jpg" >
+                <h5>OPPO A93 </h5>
+                <h5>8.900.500d</h5>
+                <h5>Qua 500.000d</h5>
+            </div>
+            <div class="item">
+                <img src="images/anh10.jpg" >
+                <h5>Iphone 12 mini 64GB </h5>
+                <h5>20.900.900d</h5>
+                <h5>Giam them 1.000.000d</h5>
+            </div>
+             <div class="item">
+                <img src="images/anh11.jpg" >
+                <h5>Xiaomi Redmi Note 9 </h5>
+                <h5>4.000.000</h5>
+                <h5>Qua 500.000d</h5>
+            </div>
+             <div class="item">
+                <img src="images/anh12.jpg" >
+                <h5>SamSung Galaxy M51 </h5>
+                <h5>9.000.000d</h5>
+                <h5>Qua 500.000d</h5>
+            </div>
+        </div>
+    </section>
+
+    <section id="maytinh" class="hideable-section">
+        <div class="banchay">May Tinh Tot Nhat</div>
+        <div class="row">
+            <div class="item">
+                <img src="images/anh13.jpg" >
+                <h5>Laptop Asus VivoBook A515EA i3 1115G4/8GB/512GB/Win10 (BQ497T)</h5>
+                <h5>14.900.500d</h5>
+                <h5>Qua 500.000d</h5>
+            </div>
+            <div class="item">
+                <img src="images/anh14.jpg" >
+                <h5>Laptop Apple MacBook Air 2017 i5 1.8GHz/8GB/128GB (MQD32SA/A) </h5>
+                <h5>20.900.900d</h5>
+                <h5>Giam them 1.000.000d</h5>
+            </div>
+             <div class="item">
+                <img src="images/anh15.jpg" >
+                <h5>Laptop Lenovo IdeaPad S340 14IIL i5 1035G1/8GB/512GB/Win10 (81VV003SVN) </h5>
+                <h5>14.000.000</h5>
+                <h5>Qua 500.000d</h5>
+            </div>
+             <div class="item">
+                <img src="images/anh16.jpg" >
+                <h5>Laptop HP Pavilion x360 14 dw0060TU i3 1005G1/4GB/256GB/Pen/Office H&S2019/ <br> Win10 (195M8PA)</h5>
+                <h5>19.000.000d</h5>
+                <h5>Qua 500.000d</h5>
+            </div>
+        </div>
+         <div class="banchay">Co lien quan</div>
+        <div class="row">
+            <div class="item">
+                <img src="images/anh17.jpg" >
+                <h5>Laptop Dell Vostro 3491 i3 1005G1/4GB/ <br> 256GB/Win10 (70223127)</h5>
+                <h5>11.900.500d</h5>
+                <h5>Qua 500.000d</h5>
+            </div>
+            <div class="item">
+                <img src="images/anh18.jpg" >
+                <h5>Laptop Asus VivoBook X509JP i5 1035G1/8GB/512GB/2GB MX330/ <br> Win10 (EJ023T)</h5>
+                <h5>17.900.900d</h5>
+                <h5>Giam them 1.000.000d</h5>
+            </div>
+             <div class="item">
+                <img src="images/anh19.jpg" >
+                <h5>Laptop Lenovo IdeaPad S146 15IIL i5 1035G1/8GB/512GB/Win10 (81W80021VN)</h5>
+                <h5>15.000.000</h5>
+                <h5>Qua 500.000d</h5>
+            </div>
+             <div class="item">
+                <img src="images/anh20.jpg" >
+                <h5>Laptop Asus VivoBook X509JA i3 1005G1/4GB/256GB/Win10 (EJ480T)</h5>
+                <h5>10.000.000d</h5>
+                <h5>Qua 500.000d</h5>
+            </div>
+        </div>
+    </section>
+    
+    <section id="dogiadung" class="hideable-section">
+         <div class="banchay">Do thuong nhat</div>
+        <div class="row">
+            <div class="item">
+                <img src="images/a21.jpg" >
+                <h5>Bộ Hộp Cơm Giữ Nhiệt Lock&Lock <br> Easy Carry 2L <br> LHC8039 Có Túi <br> (1 Hộp 720ml, 2 Hộp 420ml Kèm <br> 1 Bộ Muỗng Và Nĩa))</h5>
+                <h5>60.500d</h5>
+                <h5>Qua 20.000d</h5>
+            </div>
+            <div class="item">
+                <img src="images/a22.jpg" >
+                <h5>Thanh xốp chắn khe cửa đa năng thông minh</h5>
+                <h5>20.900d</h5>
+                <h5>Giam them 10.000d</h5>
+            </div>
+             <div class="item">
+                <img src="images/a23.jpg" >
+                <h5>Ly Giữ Nhiệt Bằng Thép Không Gỉ <br> Lock&Lock Clip Tumbler <br> LHC4151BLK (540ml) - Đen</h5>
+                <h5>200.000</h5>
+                <h5>Qua 30.000d</h5>
+            </div>
+             <div class="item">
+                <img src="images/a24.png" >
+                <h5>Đèn Pixar,<br> Đèn Học Chống Cận Thị <br> Hàng Chính Hãng miDoctor</h5>
+                <h5>140.000d</h5>
+                <h5>Qua 50.000d</h5>
+            </div>
+        </div>
+         <div class="banchay">Co the ban cung thich</div>
+        <div class="row">
+            <div class="item">
+                <img src="images/a25.jpg" >
+                <h5>Kệ Sách Thông Minh Kệ Sách Để Sàn Cao Cấp</h5>
+                <h5>400.500d</h5>
+                <h5>Qua 50.000d</h5>
+            </div>
+            <div class="item">
+                <img src="images/a26.jpg" >
+                <h5>Chảo Đá Chống Dính Siêu Bền Sunhouse</h5>
+                <h5>200.900d</h5>
+                <h5>Giam them 50.000d</h5>
+            </div>
+             <div class="item">
+                <img src="images/a27.png" >
+                <h5>Combo 10 móc treo đồ dán tường)</h5>
+                <h5>20.000d</h5>
+            </div>
+             <div class="item">
+                <img src="images/a28.jpg" >
+                <h5>Bình Giữ Nhiệt Lock&Lock New Basic Table</h5>
+                <h5>50.000d</h5>
+            </div>
+        </div>
     </section>
 
     <section id="about" class="hideable-section">
         <div>About content</div>
-    </section>
-
-    <section id="link1" class="hideable-section">
-        <div>Link1 content</div>
-    </section>
-
-    <section id="link2" class="hideable-section">
-        <div>Link2 content</div>
-    </section>
-
-    <section id="link3" class="hideable-section">
-        <div>Link3 content</div>
     </section>
 
     <script>
@@ -70,6 +277,12 @@
             });
         });
     </script>
+    <footer>
+        <h1>Liên hệ tôi qua các kênh sau:</h1>
+        <p>30 Liên Mạc street,Hà Nội city,Viet Nam courtry <i class="fa fa-map-marker"></i></p>
+        <p>luudinhduong@gmail.com <i class ="fa fa-paper-plane"></i></p>
+        <p>03 44674393<i class="fa fa-phone"></i></p>
+    </footer>
 </body>
 
-</html>
+</html>>
